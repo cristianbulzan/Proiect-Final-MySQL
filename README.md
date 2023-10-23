@@ -85,6 +85,12 @@ Cheile secundare si legaturile dintre tabele au fost stabilite astfel:
 
 In aceasta sectiune s-a facut popularea tabelelor cu datele existente in fisierul care poate fi accesat aici: 
   
+## Sectiunea Magazin SQL database DQL
 
+In aceasta sectiune s-a interogat baza de date creata si tabele populate cu informatiile din seciunea anterioara.
+
+Scenariile in urma carora s-a facut interogarea sunt urmatoarele:
+
+  * 
 
 
