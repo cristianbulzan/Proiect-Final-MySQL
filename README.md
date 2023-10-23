@@ -12,8 +12,8 @@
   Se va crea o baza de date pe un subiect la alegere.
   
   Aceasta trebuie sa contina urmatoarele componente:
-- Instructiuni DDL (cel putin una dintre CREATE, ALTER, DROP, TRUNCATE);
-- Instructiuni de DML (INSERT, DELETE, UPDATE);
+- Instructiuni DDL (cel putin una dintre CREATE, ALTER, DROP, TRUNCATE).
+- Instructiuni de DML (INSERT, DELETE, UPDATE).
 - Instructiuni DQL (select all, select cateva coloane, filtrare cu where, filtrari cu like, filtrari cu AND și OR, functii agregate,
 filtrari pe functii agregate, joinuri - inner join, left join, right join, cross join, limite, order by, chei primare, chei secundare).
 
@@ -91,6 +91,25 @@ In aceasta sectiune s-a interogat baza de date creata si tabele populate cu info
 
 Scenariile in urma carora s-a facut interogarea sunt urmatoarele:
 
-  * 
+  * afisati toate produsele disponibile in magazin.
+  * afisati tipurile de categorii de produse din magazin.
+  * afisati valoarea transportului pentru produsele din magazin.
+  * afisati produsele, pretul de lista si pretul de facturare aferente acestora.
+  * afisati produsele pentru care pretul este mai mic de 5 ron.
+  * afisati produsele pentru care pretul este intre 5 si 50 ron.
+  * afisati produsele care au pretul cu discount intre 1 si 5 ron si promo intre 10 si 20.
+  * afisati numarul de produse care au un discount de 10.
+  * afisati denumirea produselor si preturile de facturare ale acestora.
+  * afisati denumirea produselor si preturile de producator ale acestora.
+  * afisati denumirea produselor, pretul de facturare, pretul cu discount, pretul de producator si marja bruta.
+  * afisati denumirea produselor, pretul de facturare, pretul cu discount, pretul de producator si marja neta ordonate crescator dupa marja neta.
+  * afisati denumirea produselor, pretul de facturare, pretul cu discount, pretul de producator si marja neta ordonate descrescator dupa marja neta.
+  * afisati denumirea produselor, pretul de facturare, pretul cu discount, pretul de producator si marja neta ordonate descrescator dupa marja neta pentru primele 3       
+    produse.
+  * afisati denumirea produselor si preturile de facturare ale acestora utilizand left join.
+  * afisati denumirea produselor si preturile de facturare ale acestora utilizand right join.
+  * afisati denumirea produselor si preturile de facturare ale acestora utilizand cross join.
+
+    
 
 
