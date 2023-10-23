@@ -28,3 +28,39 @@ Exemple de scenarii:
 De asemenea, fiecare doua tabele legate prin chei primare si chei secundare vor trebui sa aiba atasata o explicatie legata de felul
 in care acestea sunt legate (care e cheia primara, care e cheia secundara) si respectiv care e relatia intre cele doua tabele (1:1, 1,n,
 n,n).
+
+## Sectiunea Magazin SQL database DDL
+
+In aceasta sectiune s-a facut structura bazei de date, aceasta poate fi accesata aici:, s-a creat baza de date, s-au creat tabelele din structura acesteia, s-au stabilit cheile primare si cele secundare si legaturile dintre tabele.
+
+Denumirea bazei de date este: Magazin
+
+Tabele create au urmatorea structura:
+
+Tabela Produse (Id, Cod produs, Denumire Produs, IdCategorie) poate fi accesata aici: 
+
+Tabela Categorie (Id, Categorie Produs)  poate fi accesata aici:
+
+Tabela PreturiFacturare (Id, IdProduse, Pret Lista, Discount  de Baza, Pret Facturare)  poate fi accesata aici:
+
+Tabela PreturiCuDiscount (Id, IdProduse, IdPreturiFacturare, Discount Ulterior Livarii, Logisitica, Promo, Pret cu Discount)  poate fi accesata aici:
+
+Tabela MarjaBruta (Id, IdProduse, IdPreturiCuDiscount, Valoare Marja Bruta)  poate fi accesata aici:
+
+Tabela MarjaNeta (Id, IdProduse, IdPreturiFacturare, IdPreturiCuDiscount, idPreturiProducator, IdTransport, IdMercantizare, Valoare Marja Neta)  poate fi accesata aici:
+
+Tabela Transport (Id, IdProduse, Valoare  Transport)  poate fi accesata aici:
+
+Tabela Mercantizare (Id, IdProduse, Valoare Mercantizare)  poate fi accesata aici:
+
+Tabela PreturiProducator (Id, IdProduse, Pret Producator)  poate fi accesata aici:
+
+Pentru toate tabele s-au stabilit cheile principale coloanele denumite 'id'.
+
+Cheile secundare si legaturile dintre tabele au fost stabilite astfel:
+
+In Tabela Produse cheia secundara este IdCategorie care aduce din Tabela Categorie categoria produsului din care face parte produsul din Tabela Produse.
+
+
+
+
