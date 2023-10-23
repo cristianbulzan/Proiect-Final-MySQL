@@ -29,9 +29,9 @@ De asemenea, fiecare doua tabele legate prin chei primare si chei secundare vor 
 in care acestea sunt legate (care e cheia primara, care e cheia secundara) si respectiv care e relatia intre cele doua tabele (1:1, 1,n,
 n,n).
 
-## Sectiunea Magazin SQL database DDL
+## Sectiunea Magazin SQL database DDL - [Magazin SQL database DDL](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Magazin%20SQL%20database%20DDL.sql)
 
-In aceasta sectiune s-a facut structura bazei de date, aceasta poate fi accesata aici: [Proiectare Strucura Magazin](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Magazin%20SQL%20database.docx), s-a creat baza de date, s-au creat tabelele din structura acesteia, s-au stabilit cheile primare si cele secundare si legaturile dintre tabele [Magazin SQL database DDL](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Magazin%20SQL%20database%20DDL.sql)
+In aceasta sectiune s-a facut structura bazei de date, aceasta poate fi accesata aici: [Proiectare Strucura Magazin](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Magazin%20SQL%20database.docx), s-a creat baza de date, s-au creat tabelele din structura acesteia, s-au stabilit cheile primare si cele secundare si legaturile dintre tabele.
 
 Denumirea bazei de date este: **Magazin** si a fost creata sub urmatoarea strucura care poate fi accesata aici: [Structura Baza de Date Magazin](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Diagram%20Magazin%20SQL%20database.mwb)
 
@@ -80,7 +80,7 @@ Pentru toate tabele s-au stabilit **cheile principale** coloanele denumite **'id
 
   * In **Tabela PreturiProducator** cheia secundara este IdProduse care aduce din Tabela Produse detaliile produsului (Cod Produs, Denumire Produs, Categorie Produs).
 
-## Sectiunea Magazin SQL database DML
+## Sectiunea Magazin SQL database DML - [Magazin SQL database DML](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Magazin%20SQL%20database%20DML.sql)
 
 In aceasta sectiune s-a facut popularea tabelelor cu datele existente in fisierul care poate fi accesat aici: [Informatii Tabele Magazin](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Baza%20de%20Date%20Magazin.xlsx)
   
