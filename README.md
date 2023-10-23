@@ -59,7 +59,27 @@ Pentru toate tabele s-au stabilit cheile principale coloanele denumite 'id'.
 
 Cheile secundare si legaturile dintre tabele au fost stabilite astfel:
 
-In Tabela Produse cheia secundara este IdCategorie care aduce din Tabela Categorie categoria produsului din care face parte produsul din Tabela Produse.
+  * In Tabela Produse cheia secundara este IdCategorie care aduce din Tabela Categorie categoria produsului din care face parte produsul din Tabela Produse.
+
+  * In Tabela PreturiFacturare cheia secundara este IdProduse care aduce din Tabela Produse detaliile produsului (Cod Produs, Denumire Produs, Categorie Produs).
+
+  * In Tabela PreturiCuDiscount cheile secundare sunt IdProduse care aduce din Tabela Produse detaliile produsului (Cod Produs, Denumire Produs, Categorie Produs) si       
+    IdPreturiFacturare care aduce din Tabela PreturiFacturare detaliile legate de pretul de facturare al produsului (Pret Lista, Discount  de Baza, Pret Facturare).
+
+  * In Tabela MarjaBruta cheile secundare sunt IdProduse care aduce din Tabela Produse detaliile produsului (Cod Produs, Denumire Produs, Categorie Produs) si      
+    IdPreturiCuDiscount care aduce din Tabela PreturiCuDiscount detaliile legate de pretul cu discount al produsului (Discount Ulterior Livarii, Logisitica, Promo, Pret cu      Discount).
+
+  * In Tabela MarjaNeta cheile secundare sunt IdProduse care aduce din Tabela Produse detaliile produsului (Cod Produs, Denumire Produs, Categorie Produs),         
+    IdPreturiFacturare care aduce din Tabela PreturiFacturare detaliile legate de pretul de facturare al produsului (Pret Lista, Discount  de Baza, Pret Facturare),      
+    IdPreturiCuDiscount care aduce din Tabela PreturiCuDiscount detaliile legate de pretul cu discount al produsului (Discount Ulterior Livarii, Logisitica, Promo, Pret cu      Discount), idPreturiProducator care aduce din Tabela PreturiProducator pretul de producator (Pret Producator), IdTransport care aduce din Tabela Transport valoarea 
+    transportului aferent produsului (Valoare  Transport) si IdMercantizare care aduce din Tabela Mercantizare valoarea serviciului de mercantizare aferent produsului 
+    (Valoare Mercantizare).
+
+  * In Tabela Transport cheia secundara este IdProduse care aduce din Tabela Produse detaliile produsului (Cod Produs, Denumire Produs, Categorie Produs).
+
+  * In Tabela Mercantizare cheia secundara este IdProduse care aduce din Tabela Produse detaliile produsului (Cod Produs, Denumire Produs, Categorie Produs).
+
+  * In Tabela PreturiProducator cheia secundara este IdProduse care aduce din Tabela Produse detaliile produsului (Cod Produs, Denumire Produs, Categorie Produs).
 
 
 
