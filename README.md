@@ -84,7 +84,7 @@ Pentru toate tabele s-au stabilit **cheile principale** coloanele denumite **'id
 
 In aceasta sectiune s-a facut popularea tabelelor cu datele existente in fisierul care poate fi accesat aici: [Informatii Tabele Magazin](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Baza%20de%20Date%20Magazin.xlsx)
   
-## Sectiunea Magazin SQL database DQL
+## Sectiunea Magazin SQL database DQL - [Magazin SQL database DQL](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Magazin%20SQL%20database%20DQL.sql)
 
 In aceasta sectiune s-a interogat baza de date creata si tabele populate cu informatiile din seciunea anterioara.
 
