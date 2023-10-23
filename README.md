@@ -1,6 +1,9 @@
 # Proiect-Final-MySQL
 ## Scopul Proiectului
+
   Scopul acestui proiect este de a crea o baza de date care sa contina instructiuni DDL, DML si DQL.
+
+  Proiectul are 3 sectiuni: Magazin SQL database DDL, Magazin SQL database DML si Magazin SQL database DQL
   
   Instrumentele utilizate in realizarea proiectului au fost: MySQL Workbench
   
