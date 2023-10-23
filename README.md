@@ -33,9 +33,9 @@ n,n).
 
 In aceasta sectiune s-a facut structura bazei de date, aceasta poate fi accesata aici: [Proiectare Strucura Magazin](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Magazin%20SQL%20database.docx), s-a creat baza de date, s-au creat tabelele din structura acesteia, s-au stabilit cheile primare si cele secundare si legaturile dintre tabele.
 
-Denumirea bazei de date este: **Magazin** si a fost creata sub urmatoarea strucura care poate fi accesata aici:
+Denumirea bazei de date este: **Magazin** si a fost creata sub urmatoarea strucura care poate fi accesata aici: [Structura Baza de Date Magazin](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Diagram%20Magazin%20SQL%20database.mwb)
 
-Tabele create au urmatoarele detalii, iar strucura acestora poate fi accesata aici:
+Tabele create au urmatoarele detalii, iar strucura acestora poate fi accesata aici:  [Structura Tabele Magazin](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Diagram%20Magazin%20SQL%20database.mwb)
 
   * **Tabela Produse** (Id, Cod produs, Denumire Produs, IdCategorie).
 
