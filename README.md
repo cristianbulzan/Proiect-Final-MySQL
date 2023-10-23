@@ -33,27 +33,27 @@ n,n).
 
 In aceasta sectiune s-a facut structura bazei de date, aceasta poate fi accesata aici:, s-a creat baza de date, s-au creat tabelele din structura acesteia, s-au stabilit cheile primare si cele secundare si legaturile dintre tabele.
 
-Denumirea bazei de date este: Magazin
+Denumirea bazei de date este: Magazin, iar strucura acesteia poate fi accesata aici:
 
-Tabele create au urmatorea structura:
+Tabele create au urmatoarele detalii, iar strucura acestora poate fi accesata aici:
 
-  * Tabela Produse (Id, Cod produs, Denumire Produs, IdCategorie) poate fi accesata aici: 
+  * Tabela Produse (Id, Cod produs, Denumire Produs, IdCategorie).
 
-  * Tabela Categorie (Id, Categorie Produs)  poate fi accesata aici:
+  * Tabela Categorie (Id, Categorie Produs).
 
-  * Tabela PreturiFacturare (Id, IdProduse, Pret Lista, Discount  de Baza, Pret Facturare)  poate fi accesata aici:
+  * Tabela PreturiFacturare (Id, IdProduse, Pret Lista, Discount  de Baza, Pret Facturare).
 
-  * Tabela PreturiCuDiscount (Id, IdProduse, IdPreturiFacturare, Discount Ulterior Livarii, Logisitica, Promo, Pret cu Discount)  poate fi accesata aici:
+  * Tabela PreturiCuDiscount (Id, IdProduse, IdPreturiFacturare, Discount Ulterior Livarii, Logisitica, Promo, Pret cu Discount).
 
-  * Tabela MarjaBruta (Id, IdProduse, IdPreturiCuDiscount, Valoare Marja Bruta)  poate fi accesata aici:
+  * Tabela MarjaBruta (Id, IdProduse, IdPreturiCuDiscount, Valoare Marja Bruta).
 
-  * Tabela MarjaNeta (Id, IdProduse, IdPreturiFacturare, IdPreturiCuDiscount, idPreturiProducator, IdTransport, IdMercantizare, Valoare Marja Neta)  poate fi accesata aici:
+  * Tabela MarjaNeta (Id, IdProduse, IdPreturiFacturare, IdPreturiCuDiscount, idPreturiProducator, IdTransport, IdMercantizare, Valoare Marja Neta).
 
-  * Tabela Transport (Id, IdProduse, Valoare  Transport)  poate fi accesata aici:
+  * Tabela Transport (Id, IdProduse, Valoare  Transport).
 
-  * Tabela Mercantizare (Id, IdProduse, Valoare Mercantizare)  poate fi accesata aici:
+  * Tabela Mercantizare (Id, IdProduse, Valoare Mercantizare).
 
-  * Tabela PreturiProducator (Id, IdProduse, Pret Producator)  poate fi accesata aici:
+  * Tabela PreturiProducator (Id, IdProduse, Pret Producator).
 
 Pentru toate tabele s-au stabilit cheile principale coloanele denumite 'id'.
 
