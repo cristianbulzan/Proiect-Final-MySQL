@@ -82,7 +82,7 @@ Pentru toate tabele s-au stabilit **cheile principale** coloanele denumite **'id
 
 ## Sectiunea Magazin SQL database DML
 
-In aceasta sectiune s-a facut popularea tabelelor cu datele existente in fisierul care poate fi accesat aici: 
+In aceasta sectiune s-a facut popularea tabelelor cu datele existente in fisierul care poate fi accesat aici: [Informatii Tabele Magazin](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Baza%20de%20Date%20Magazin.xlsx)
   
 ## Sectiunea Magazin SQL database DQL
 
