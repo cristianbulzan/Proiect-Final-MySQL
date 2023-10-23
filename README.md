@@ -81,6 +81,10 @@ Cheile secundare si legaturile dintre tabele au fost stabilite astfel:
 
   * In Tabela PreturiProducator cheia secundara este IdProduse care aduce din Tabela Produse detaliile produsului (Cod Produs, Denumire Produs, Categorie Produs).
 
+## Sectiunea Magazin SQL database DML
+
+In aceasta sectiune s-a facut popularea tabelelor cu datele existente in fisierul care poate fi accesat aici: 
+  
 
 
 
