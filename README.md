@@ -37,23 +37,23 @@ Denumirea bazei de date este: Magazin
 
 Tabele create au urmatorea structura:
 
-Tabela Produse (Id, Cod produs, Denumire Produs, IdCategorie) poate fi accesata aici: 
+  * Tabela Produse (Id, Cod produs, Denumire Produs, IdCategorie) poate fi accesata aici: 
 
-Tabela Categorie (Id, Categorie Produs)  poate fi accesata aici:
+  * Tabela Categorie (Id, Categorie Produs)  poate fi accesata aici:
 
-Tabela PreturiFacturare (Id, IdProduse, Pret Lista, Discount  de Baza, Pret Facturare)  poate fi accesata aici:
+  * Tabela PreturiFacturare (Id, IdProduse, Pret Lista, Discount  de Baza, Pret Facturare)  poate fi accesata aici:
 
-Tabela PreturiCuDiscount (Id, IdProduse, IdPreturiFacturare, Discount Ulterior Livarii, Logisitica, Promo, Pret cu Discount)  poate fi accesata aici:
+  * Tabela PreturiCuDiscount (Id, IdProduse, IdPreturiFacturare, Discount Ulterior Livarii, Logisitica, Promo, Pret cu Discount)  poate fi accesata aici:
 
-Tabela MarjaBruta (Id, IdProduse, IdPreturiCuDiscount, Valoare Marja Bruta)  poate fi accesata aici:
+  * Tabela MarjaBruta (Id, IdProduse, IdPreturiCuDiscount, Valoare Marja Bruta)  poate fi accesata aici:
 
-Tabela MarjaNeta (Id, IdProduse, IdPreturiFacturare, IdPreturiCuDiscount, idPreturiProducator, IdTransport, IdMercantizare, Valoare Marja Neta)  poate fi accesata aici:
+  * Tabela MarjaNeta (Id, IdProduse, IdPreturiFacturare, IdPreturiCuDiscount, idPreturiProducator, IdTransport, IdMercantizare, Valoare Marja Neta)  poate fi accesata aici:
 
-Tabela Transport (Id, IdProduse, Valoare  Transport)  poate fi accesata aici:
+  * Tabela Transport (Id, IdProduse, Valoare  Transport)  poate fi accesata aici:
 
-Tabela Mercantizare (Id, IdProduse, Valoare Mercantizare)  poate fi accesata aici:
+  * Tabela Mercantizare (Id, IdProduse, Valoare Mercantizare)  poate fi accesata aici:
 
-Tabela PreturiProducator (Id, IdProduse, Pret Producator)  poate fi accesata aici:
+  * Tabela PreturiProducator (Id, IdProduse, Pret Producator)  poate fi accesata aici:
 
 Pentru toate tabele s-au stabilit cheile principale coloanele denumite 'id'.
 
