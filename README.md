@@ -88,7 +88,7 @@ In aceasta sectiune s-a facut popularea tabelelor cu datele existente in fisieru
   
 ## Sectiunea Magazin SQL database DQL - *[Magazin SQL database DQL](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Magazin%20SQL%20database%20DQL.sql)*
 
-In aceasta sectiune s-a interogat baza de date creata si tabele populate cu informatiile din sectiunea anterioara, instructiunile de rezolvare a scenariilor pot fi accesate aici: [Instructiuni scenarii DQL]()
+In aceasta sectiune s-a interogat baza de date creata si tabele populate cu informatiile din sectiunea anterioara, instructiunile de rezolvare a scenariilor pot fi accesate aici: [Instructiuni scenarii DQL](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Magazin%20SQL%20database%20DQL.sql)
 
 **Scenariile** in urma carora s-a facut interogarea sunt urmatoarele:
 
