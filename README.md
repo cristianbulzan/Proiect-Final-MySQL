@@ -33,7 +33,7 @@ n,n).
 
 In aceasta sectiune s-a facut structura bazei de date, aceasta poate fi accesata aici: [Proiectare Strucura Magazin](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Magazin%20SQL%20database.docx), s-a creat baza de date, s-au creat tabelele din structura acesteia, s-au stabilit cheile primare si cele secundare si legaturile dintre tabele.
 
-Denumirea bazei de date este: **Magazin** si a fost creata sub urmatoarea structura care poate fi accesata aici: [Structura Baza de Date Magazin](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Baza%20de%20Date%20Magazin.xlsx)
+Denumirea bazei de date este: **Magazin** si a fost creata sub urmatoarea structura care poate fi accesata aici: [Structura Baza de Date Magazin](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Diagram%20Magazin%20SQL%20database.mwb)
 
 ![image](https://github.com/cristianbulzan/Proiect-Final-MySQL/blob/main/Reverse%20Engineer%20Magazin%20Database.png)
 
